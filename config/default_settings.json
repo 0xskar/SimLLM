@@ -1,0 +1,61 @@
+{
+  "population_target": 8,
+  "world_width": 24,
+  "world_height": 24,
+  "tick_interval_seconds": 5.0,
+  "sim_minutes_per_tick": 10,
+  "worker_concurrency": 5,
+  "decision_cooldown_ticks": 3,
+  "autosave_interval_ticks": 50,
+  "ollama_model": "qwen2.5:7b-instruct",
+  "ollama_host": "http://localhost:11434",
+  "llm_timeout_seconds": 40.0,
+  "llm_max_retries": 1,
+  "perception_radius": 6,
+  "conversation_range": 1,
+  "conversation_max_turns": 4,
+  "conversation_reply_max_chars": 300,
+  "memory_buffer_size": 20,
+  "life_summary_max_chars": 1500,
+  "summarization_interval_ticks": 144,
+  "mood_band_width": 25,
+  "needs_critical_threshold": 20.0,
+  "shelter_home_regen_per_tick": 3.0,
+  "health_regen_per_tick": 0.5,
+  "health_decay_per_critical_need": 1.0,
+  "needs_decay_per_tick": {
+    "hunger": 1.2,
+    "energy": 1.0,
+    "social": 0.8,
+    "shelter": 0.6,
+    "hygiene": 0.7,
+    "fun": 0.9,
+    "purpose": 0.5
+  },
+  "needs_restore_amount": {
+    "hunger": 60.0,
+    "energy": 70.0,
+    "social": 50.0,
+    "hygiene": 60.0,
+    "fun": 55.0,
+    "purpose": 40.0
+  },
+  "starting_currency": 100.0,
+  "food_cost": 8.0,
+  "building_costs": {
+    "house": 150.0,
+    "workplace": 250.0
+  },
+  "building_construction_ticks": {
+    "house": 48,
+    "workplace": 72
+  },
+  "default_job_wage": 25.0,
+  "job_slots_per_workplace": 3,
+  "work_energy_cost": 15.0,
+  "workplace_interaction_range": 1,
+  "lifespan_ticks_min": 8640,
+  "lifespan_ticks_max": 14400,
+  "starvation_death_ticks": 288,
+  "max_action_duration_ticks": 96
+}

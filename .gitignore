@@ -1,0 +1,15 @@
+saves/*.sqlite3
+saves/*.sqlite3-wal
+saves/*.sqlite3-shm
+logs/
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+node_modules/
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+.pytest_cache/
+.coverage
+.claude/
